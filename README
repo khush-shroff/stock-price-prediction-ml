@@ -1,0 +1,28 @@
+# Stock Price Prediction using Machine Learning
+
+## Overview
+This project aims to predict stock closing prices using historical data and basic machine learning techniques.
+
+## Dataset
+- Source: Yahoo Finance
+- Stock: Reliance Industries
+- Data Range: 2017 - 2024
+
+## Features Used
+- Previous day prices (lag features)
+- Moving averages (5-day, 10-day)
+- RSI (Relative Strength Index)
+
+## Model
+- Random Forest Regressor
+
+## Evaluation
+- RMSE (Root Mean Squared Error)
+
+## Observations
+- Model captures general trend but not exact values
+- Market volatility affects prediction accuracy
+
+## Future Improvements
+- Use LSTM for better time-series prediction
+- Add more technical indicators
